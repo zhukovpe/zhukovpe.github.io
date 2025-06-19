@@ -265,7 +265,7 @@ table td {
   font-size: 26px;
   font-weight: 400;
   line-height: 54px;
-  letter-spacing: -1px;
+  /* letter-spacing: -1px; */
   margin-bottom: 0;
   float: left;
 }
