@@ -51,3 +51,6 @@ theme: minima
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+collections:
+  experiences:
+    collections_dir: _experiences
