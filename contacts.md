@@ -3,16 +3,12 @@ layout: default
 title: Contacts
 permalink: /contacts
 ---
+<h2>Contacts</h2>
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<ul class="no-bullets">
+  <li>LinkedIn: <a href="https://www.linkedin.com/in/pavel-zhukov-a86035197">https://www.linkedin.com/in/pavel-zhukov-a86035197</a></li>
+  <li>Email: <a href="mailto:pasha.zhukov@gmail.com">pasha.zhukov@gmail.com</a></li>
+  <li>Github: <a href="https://github.com/zhukovpe">https://github.com/zhukovpe</a></li>
+  <li>Hackerrank: <a href="https://www.hackerrank.com/profile/pasha_zhukov">https://www.hackerrank.com/profile/pasha_zhukov</a></li>
+  <li>Download resume PDF: <a href="https://www.dropbox.com/scl/fi/zm9smpwm014ipu04wwrcm/Pavel-Zhukov-2024.pdf">https://www.dropbox.com/scl/fi/zm9smpwm014ipu04wwrcm/Pavel-Zhukov-2024.pdf</a></li>
+</ul>
