@@ -4,7 +4,8 @@ title: Experience
 permalink: /experience
 ---
 <ul class="no-bullets">
-  {% for experience in site.experiences %}
+  {% assign ordered_experiences = site.experiences | sort:'sort_order' %}
+  {% for experience in ordered_experiences %}
     <li>
       <h2 class="experience-title">{{ experience.title }}</h2>
       <ul class="no-bullets">
