@@ -53,7 +53,7 @@ theme: minima
 #   - vendor/ruby/
 collections:
   experiences:
-    collections_dir: _experiences
+    # collections_dir: _experiences
     order:
       - 2020_01.md
       - 2018_08.md
