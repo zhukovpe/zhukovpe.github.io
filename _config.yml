@@ -53,11 +53,12 @@ theme: minima
 #   - vendor/ruby/
 collections:
   experiences:
-    # collections_dir: _experiences
-    order:
-      - 2020_01.md
-      - 2018_08.md
-      - 2017_01.md
-      - 2016_04.md
-      - 2009_09.md
-      - 2007_05.md
+    sort_by: sort_order
+    # Gihub pages use jekyll v3, custom order support starting v4
+    # order:
+    #   - 2020_01.md
+    #   - 2018_08.md
+    #   - 2017_01.md
+    #   - 2016_04.md
+    #   - 2009_09.md
+    #   - 2007_05.md
