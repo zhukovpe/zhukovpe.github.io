@@ -64,6 +64,7 @@ img.avatar {
   width: auto;
   float: left;
   margin-right: 1.5em;
+  border-radius: 8px;
 }
 @media screen and (max-width: 800px) {
   img.avatar {
