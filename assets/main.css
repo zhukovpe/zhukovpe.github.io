@@ -162,7 +162,7 @@ h4 {
   top: 8px;
   bottom: 8px;
   width: 2px;
-  background: linear-gradient(to bottom, #2a7ae2, #e8e8e8);
+  background: linear-gradient(to bottom, #4a4a4a, #d0d0d0);
 }
 
 .timeline-item {
@@ -182,12 +182,12 @@ h4 {
   height: 14px;
   border-radius: 50%;
   background: #fff;
-  border: 3px solid #2a7ae2;
+  border: 3px solid #4a4a4a;
   z-index: 1;
 }
 
 .timeline-item:first-child .timeline-marker {
-  background: #2a7ae2;
+  background: #4a4a4a;
 }
 
 .timeline-date {
@@ -200,7 +200,7 @@ h4 {
 .timeline-date time {
   font-size: 0.875rem;
   font-weight: 600;
-  color: #2a7ae2;
+  color: #4a4a4a;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
