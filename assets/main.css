@@ -158,9 +158,9 @@ h4 {
 .timeline::before {
   content: '';
   position: absolute;
-  left: 6px;
-  top: 8px;
-  bottom: 8px;
+  left: 9px;
+  top: 0;
+  bottom: 0;
   width: 2px;
   background: linear-gradient(to bottom, #4a4a4a, #d0d0d0);
 }
@@ -176,7 +176,7 @@ h4 {
 
 .timeline-marker {
   position: absolute;
-  left: -23px;
+  left: -30px;
   top: 6px;
   width: 14px;
   height: 14px;
@@ -184,7 +184,6 @@ h4 {
   background: #fff;
   border: 3px solid #4a4a4a;
   z-index: 1;
-  transform: translateX(-50%);
 }
 
 .timeline-item:first-child .timeline-marker {
@@ -246,11 +245,11 @@ h4 {
   }
 
   .timeline::before {
-    left: 4px;
+    left: 6px;
   }
 
   .timeline-marker {
-    left: -19px;
+    left: -24px;
     width: 10px;
     height: 10px;
     border-width: 2px;
