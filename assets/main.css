@@ -112,7 +112,39 @@ ul.no-bullets {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #222;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #444;
 }
 
 /**
@@ -371,8 +403,8 @@ table td {
 }
 
 .site-title {
-  font-size: 26px;
-  font-weight: 400;
+  font-size: 1.625rem;
+  font-weight: 600;
   line-height: 54px;
   /* letter-spacing: -1px; */
   margin-bottom: 0;
@@ -520,11 +552,13 @@ table td {
 }
 
 .page-heading {
-  font-size: 32px;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .post-list-heading {
-  font-size: 28px;
+  font-size: 1.75rem;
+  font-weight: 600;
 }
 
 .post-list {
@@ -542,7 +576,8 @@ table td {
 
 .post-link {
   display: block;
-  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 /**
@@ -553,9 +588,10 @@ table td {
 }
 
 .post-title {
-  font-size: 42px;
-  letter-spacing: -1px;
-  line-height: 1;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.15;
 }
 @media screen and (max-width: 800px) {
   .post-title {
