@@ -3,19 +3,26 @@ layout: default
 title: Experience
 permalink: /experience
 ---
-<ul class="no-bullets">
+<div class="timeline">
   {% assign ordered_experiences = site.experiences | sort:'sort_order' %}
   {% for experience in ordered_experiences %}
-    <li>
-      <h2 class="experience-title">{{ experience.title }}</h2>
-      <ul class="no-bullets">
-        <li>{{ experience.company_name }} </li>
-        <li>{{ experience.date_from }} - {{ experience.date_to }}</li>
-        {% for link in experience.links %}
-          <li><a href="{{ link.url }}">{{ link.name }}</a></li>
-        {% endfor %}
-      </ul>
-      <p>{{ experience.description }}</p>
-    </li>
+    <div class="timeline-item">
+      <div class="timeline-marker"></div>
+      <div class="timeline-content">
+        <div class="timeline-date">
+          <time>{{ experience.date_from }}</time>
+          <span class="date-separator">—</span>
+          <time>{{ experience.date_to }}</time>
+        </div>
+        <h2 class="timeline-title">{{ experience.title }}</h2>
+        <div class="timeline-company">
+          {{ experience.company_name }}
+          {% for link in experience.links %}
+            <a href="{{ link.url }}" class="company-link">{{ link.name }}</a>
+          {% endfor %}
+        </div>
+        <p class="timeline-description">{{ experience.description }}</p>
+      </div>
+    </div>
   {% endfor %}
-</ul>
+</div>

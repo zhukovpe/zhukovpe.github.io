@@ -115,9 +115,117 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-.experience-title {
-  margin-bottom: 0;
+/**
+ * Timeline
+ */
+.timeline {
+  position: relative;
+  padding-left: 30px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: linear-gradient(to bottom, #2a7ae2, #e8e8e8);
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 2em;
+}
+
+.timeline-item:last-child {
   padding-bottom: 0;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -30px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid #2a7ae2;
+  z-index: 1;
+}
+
+.timeline-item:first-child .timeline-marker {
+  background: #2a7ae2;
+}
+
+.timeline-date {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  margin-bottom: 0.3em;
+}
+
+.timeline-date time {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #2a7ae2;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.timeline-date .date-separator {
+  color: #828282;
+  font-size: 0.875rem;
+}
+
+.timeline-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.2em;
+  color: #111;
+}
+
+.timeline-company {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.6em;
+}
+
+.timeline-company .company-link {
+  margin-left: 0.5em;
+  font-size: 0.85rem;
+}
+
+.timeline-company .company-link::before {
+  content: '·';
+  margin-right: 0.5em;
+  color: #828282;
+}
+
+.timeline-description {
+  color: #444;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 600px) {
+  .timeline {
+    padding-left: 24px;
+  }
+
+  .timeline::before {
+    left: 4px;
+  }
+
+  .timeline-marker {
+    left: -24px;
+    width: 10px;
+    height: 10px;
+    border-width: 2px;
+  }
+
+  .timeline-date {
+    flex-wrap: wrap;
+  }
 }
 
 /**
