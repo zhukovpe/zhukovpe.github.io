@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zhukovpe.github.io/sitemap.xml
+Sitemap: https://cv.zhukovpe.org/sitemap.xml
