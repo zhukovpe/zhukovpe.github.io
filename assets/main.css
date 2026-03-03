@@ -16,7 +16,7 @@ body {
   font: 400 16px/1.5 'Open Sans', sans-serif;
   font-style: normal;
   color: #111;
-  background-color: #fdfdfd;
+  background-color: #F5F0E8;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -436,7 +436,7 @@ table td {
     position: absolute;
     top: 9px;
     right: 15px;
-    background-color: #fdfdfd;
+    background-color: #F5F0E8;
     border: 1px solid #e8e8e8;
     border-radius: 5px;
     text-align: right;
